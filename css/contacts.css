@@ -1,0 +1,213 @@
+
+
+.navbar{
+    background-color: #1E202B;
+
+}
+.navbar-collapse a{
+    font-weight: 400 ;
+    margin-inline: 5px;
+    color: white;
+    display: inline-block;
+    padding: 5px 25px !important;
+    border: 2px solid #09c;
+    border-radius: 30px;
+    border-color: transparent;
+    transition: all .3s ease;
+}
+
+/* 
+.home{
+    border-color: #09c !important;
+    color: #09c !important;
+} */
+
+.navbar-collapse a:hover{
+    border-color: #09c;
+    color: #09c;
+}
+
+
+.active{
+    border-color:#09c  !important;
+    color: #09c !important;
+}
+
+
+.log-desc{
+
+    display: block;
+    color: #bfc1c8;
+    font-size: .7em ;
+    cursor: pointer;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+main{
+    background-color: #1E202B;
+    height: 700px;
+}
+
+
+.home-anchor:hover{
+    text-decoration: underline;
+
+}
+
+
+
+.desc{
+    background-color: #262936;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: .9em;
+
+}
+
+
+.desc a{
+    color :  #bfc1c8;
+    position: relative;
+}
+
+.desc a::after{
+    content: '';
+    width: 12px;
+    height: 7px;
+    background-image: url(../images/arrow-gray.png);
+    background-repeat: no-repeat;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+
+.parent{
+    overflow: auto;
+}
+
+.child-1{
+    padding: 250px 0px 20px 20px;
+    background-color:#262936;
+    border-radius: 10px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+.child-1 a{
+    color: rgba(255, 255, 255, 0.574);
+}
+
+
+.child-2 input,textarea{
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48
+}
+
+
+.child-2 textarea:hover{
+    border-color: #09c;
+}
+
+.child-2 input:hover{
+    border-color: #09c;
+}
+
+
+.text-right{
+    text-align: right;
+}
+
+.text-right input{
+    background-color: #09c;
+    border: none;
+    padding: 10px 20px !important;
+    margin-top: 0;
+}
+
+
+
+
+
+/* //////////////////////////////////////////////// */
+
+
+
+
+footer{
+    height: 200px;
+    background-color: #262936;
+}
+
+.subscribe-input{
+    color: white;
+    width: 100%;
+    background-color: #1E202B;
+    border: none;
+    padding: 20px 50px 20px 20px;
+    border-radius: 30px;
+    margin-top: 70px;
+}
+
+p{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.619);
+}
+
+.subscribe{
+    position: relative;
+}
+
+
+.subscribe-btn{
+    position: absolute;
+    top: 75px;
+    right: 5px;
+    color: white;
+    background-color: #09c;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 40px;
+}
+
+
+.icons{
+    text-align: center;
+    margin-block: 80px;
+}
+
+.icons a{
+
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    color: rgb(0, 154, 216);
+    text-align: center;
+    line-height: 2.25;
+    font-size: 1.42857em;
+    border-radius: 50%;
+    background: rgb(30, 32, 43);
+    transition: all 0.3s ease 0s;
+}
+
+
+.icons a:hover{
+    background-color:#09c ;
+    color: white;
+}
